@@ -1,0 +1,78 @@
+.main {
+    background-color: rgba(128, 128, 128, 0.377);
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+}
+
+.agregar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 500px;
+    height: 81px;
+    padding-right: 40px;
+    right: 415px;
+    position:fixed;
+    top: 50px;
+}
+
+.agregar button{
+    position:fixed;
+    top: 75px;
+    right: 480px;
+    height: 5%;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 5px;
+    border: 0;
+    width: 40px;
+    cursor: pointer;
+    font-size: large;
+    color: white;
+}
+
+.nueva-tarea {
+    position: fixed;
+    width: 460px;
+    right: 455px;
+    height: 35px;
+    background-color: rgba(128, 128, 128, 0.05);
+    font-size: large;
+    border: 0;
+}
+
+.lista-tareas {
+    position: fixed;
+    top: 170px;
+    width: 540px;
+    height: 200px;
+    background-color: white;
+    right: 415.5px;   
+    font-size: 20px;
+    font-family: helvetica;
+    color: blueviolet;
+}
+
+.delete {
+    position: fixed;
+    display: flex;
+    top: 400px;   
+}
+
+.delete button {
+    display: flex;
+    height: 50px;
+    width: 140px;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

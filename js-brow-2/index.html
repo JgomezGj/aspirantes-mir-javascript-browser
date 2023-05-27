@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendientes</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div class="main" id="main">
+            <div class="agregar" id="agregar">
+                <input type="text" class="nueva-tarea" id="nueva-tarea" placeholder="Ingresa tu nueva tarea">
+                <button onclick="agregarTarea()">Add</button>
+            </div>
+            <div class="lista-tareas">
+            <ul id="lista" class="lista">
+            </ul>
+            </div>
+            <div class="delete" id="delete">
+            <button onclick="deleteAllDone()">Delete all done</button>
+            </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
